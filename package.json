@@ -1,0 +1,30 @@
+{
+  "name": "restcountries-js",
+  "version": "0.0.1",
+  "description": "restcountries api wrapper for javascript",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --colors",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack/dev.config.js --watch --colors"
+  },
+  "main": "api.js",
+  "module": "api.js",
+  "keywords": [
+    "axios",
+    "restcountries"
+  ],
+  "private": false,
+  "author": "ejnshtein",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ejnshtein/restcountries-js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
