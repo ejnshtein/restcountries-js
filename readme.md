@@ -16,17 +16,7 @@ This is a Javascript wrapper around API provided by [Restcountries](https://rest
         })
 ```
 
-## Async/Await
-
-```js
-    const restcountries = require('restcoutries-js')
-    (async () => {
-        const allCountries = await restcountries().all()
-        console.lg(allCountries)
-    })()
-```
-
-## Webpack 4.0
+## ES6 import
 
 ```js
     import restcountries from 'restcoutries-js'

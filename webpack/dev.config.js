@@ -2,40 +2,39 @@
 const path = require('path')
 
 module.exports = {
-    mode: 'development',
-    
-    entry: {
-        'restcountries': './api.js',
-    },
+  mode: 'development',
 
-    output: {
-        path: path.resolve(__dirname, '..', 'dist'),
-        filename: '[name].min.js',
-        library: '[name]',
-        libraryTarget: 'umd',
-        libraryExport: 'default',
-        umdNamedDefine: true,
-        publicPath: '/'
-    },
+  entry: {
+    restcountries: './api.js'
+  },
 
-    resolve: {
-        modules: ['node_modules'],
-        extensions: ['.js', '.scss']
-    },
+  output: {
+    path: path.resolve(__dirname, '..', 'dist'),
+    filename: '[name].min.js',
+    library: '[name]',
+    libraryTarget: 'umd',
+    libraryExport: 'default',
+    umdNamedDefine: true,
+    publicPath: '/'
+  },
 
-    module: {
-        strictExportPresence: true
-    },
+  resolve: {
+    modules: ['node_modules'],
+    extensions: ['.js', '.scss']
+  },
 
-    devServer:{
-        hot: true
-    },
-    
-    node: {
-        dgram: 'empty',
-        fs: 'empty',
-        net: 'empty',
-        tls: 'empty'
-    }
+  module: {
+    strictExportPresence: true
+  },
 
+  devServer: {
+    hot: true
+  },
+
+  node: {
+    dgram: 'empty',
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty'
+  }
 }
