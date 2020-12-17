@@ -4,7 +4,7 @@ This is a Javascript wrapper around API provided by [Restcountries](https://rest
 
 ## Installation
 
-    npm i restcoutries-js
+    npm i restcountries-js
 
 ## Example in Node.js
 
