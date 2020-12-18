@@ -25,11 +25,5 @@ module.exports = {
 
   module: {
     strictExportPresence: true
-  },
-  node: {
-    dgram: 'empty',
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty'
   }
 }

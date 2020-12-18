@@ -29,12 +29,5 @@ module.exports = {
 
   devServer: {
     hot: true
-  },
-
-  node: {
-    dgram: 'empty',
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty'
   }
 }
