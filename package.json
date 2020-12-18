@@ -1,6 +1,6 @@
 {
   "name": "restcountries-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "restcountries api wrapper for javascript",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress",
