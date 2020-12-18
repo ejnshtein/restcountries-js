@@ -13,6 +13,11 @@
     "axios",
     "restcountries"
   ],
+  "files": [
+    "dist",
+    "webpack",
+    "api.js"
+  ],
   "private": false,
   "author": "ejnshtein",
   "license": "ISC",
