@@ -4,7 +4,8 @@
   "description": "restcountries api wrapper for javascript",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack/dev.config.js --watch"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack/dev.config.js --watch",
+    "pb": "rm -rf dist && npm run build && np"
   },
   "main": "api.js",
   "module": "api.js",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "np": "^7.0.0",
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
   }
